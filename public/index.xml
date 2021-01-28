@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Grub Street</title>
+    <link>https://newgrubstreet.com/</link>
+    <description>Recent content on New Grub Street</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://newgrubstreet.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://newgrubstreet.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://newgrubstreet.com/about/</guid>
+      <description>This website contains my writing on books, film, and music subjects.
+How to read New Grub Street I strongly recommend that you print out the posts that you find interesting. I advise this because I want you to read what I have written. Printing articles on real paper is the preferred way to read this website. People do not read content on the web deeply.1
+Alternatively, you can save and/or send posts to an e-reader, such as a Kobo or a Kindle.</description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>https://newgrubstreet.com/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://newgrubstreet.com/archive/</guid>
+      <description>archive</description>
+    </item>
+    
+    <item>
+      <title>Recommended Websites</title>
+      <link>https://newgrubstreet.com/recommended-websites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://newgrubstreet.com/recommended-websites/</guid>
+      <description>Books The Hudson Review
+The Literary Saloon
+London Review of Books
+Los Angeles Review of Books
+The New Rambler
+New York Review of Books
+General Media Criticism 4Columns - Four columns of arts criticism updated weekly. Each column is roughly 1,000 words.
+The Baffler - Irreverent criticism of politics and culture.
+New Models - Aggregator of interesting criticism with some original content.
+Scaruffi - Encyclopedic and idiosyncratic capsule reviews of music and literature.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://newgrubstreet.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://newgrubstreet.com/search/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
