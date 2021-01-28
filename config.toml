@@ -1,0 +1,134 @@
+baseURL = "https://newgrubstreet.com/"
+languageCode = "en-us"
+title = "New Grub Street"
+theme = "hugo-PaperMod"
+paginate = 5
+
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = "UA-123-45"
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "New Grub Street"
+description = "Writing on books, film, and music"
+#author = "Me"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+defaultTheme = "light"
+disableThemeToggle = true
+ShowReadingTime = true
+ShowShareButtons = false
+disableSpecial1stPost = true
+comments = false
+hidemeta = false
+showtoc = false
+tocopen = false
+
+  [params.assets]
+  favicon = "/favicon.ico"
+  favicon16x16 = "/favicon-16x16.png"
+  favicon32x32 = "</favicon-32x32.png"
+  apple_touch_icon = "/apple-touch-icon.png"
+  safari_pinned_tab = "<link / abs url>"
+
+
+ [params.label]
+ #text = "Home"
+ icon = "/apple-touch-icon.png"
+ iconHeight = 30
+
+  [params.profileMode]
+  enabled = false
+  title = "ExampleSite"
+  imageUrl = "<img location>"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "New Grub Street"
+  Content = "*Writing on books, film, and music*"
+
+ #[[params.socialIcons]]
+#name = "email"
+ # url = "https://twitter.com/"
+
+#  [[params.socialIcons]]
+#  name = "stackoverflow"
+#  url = "https://stackoverflow.com"
+
+#  [[params.socialIcons]]
+#  name = "github"
+#  url = "https://github.com/"
+
+#[params.analytics.google]
+#SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+#[[menu.main]]
+#identifier = "Reviews"
+#name = "Reviews"
+#url = "/categories/"
+#weight = 10
+# MUST add page
+
+[[menu.main]]
+identifier = "Search"
+name = "Search"
+url = "/search/"
+weight = 10
+
+[[menu.main]]
+identifier = "Archive"
+name = "Archive"
+url = "/archive/"
+weight = 15
+
+[[menu.main]]
+identifier = "Tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "Recommended Websites"
+name = "Recommended Websites"
+url = "/recommended-websites/"
+weight = 20
+
+[[menu.main]]
+identifier = "About"
+name = "About"
+url = "/about/"
+weight = 30
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
